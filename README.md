@@ -20,13 +20,6 @@ Welcome to the JavaScript Statements Practice Lab! This lab is designed to help 
 6. Run `npm test` to execute the tests and check your solutions.
 7. Continue fixing the code until all tests pass.
 
-## Tips
-
-- **Read the Instructions Carefully**: Pay close attention to the instructions provided in each problem statement.
-- **Check for Mistakes**: Look for intentional mistakes in the code and think critically about how to fix them.
-- **Use Documentation**: If you're unsure about any JavaScript syntax or concepts, refer to the MDN Web Docs or other reliable sources for clarification.
-- **Test Your Code**: Run the tests frequently to verify your solutions and track your progress.
-
 
 ### Files repetitionStatements.js and selectionStatements.js
 
@@ -52,6 +45,12 @@ Welcome to the JavaScript Statements Practice Lab! This lab is designed to help 
     - Example sentence: `"The number 4 is even."`, with the current number in place of 4.
 - Open the test file test/statements.test.js to see the expected results for the `result5` variable.
 
+## Tips
+
+- **Read the Instructions Carefully**: Pay close attention to the instructions provided in each problem statement.
+- **Check for Mistakes**: Look for intentional mistakes in the code and think critically about how to fix them.
+- **Use Documentation**: If you're unsure about any JavaScript syntax or concepts, refer to the MDN Web Docs or other reliable sources for clarification.
+- **Test Your Code**: Run the tests frequently to verify your solutions and track your progress.
 
 ## Resources
 
