@@ -7,8 +7,9 @@ let counter1 = 0;
 let result1 = "";
 
 // Modify the code below
-while (counter1 > 5) {
-    result1 = counter1;
+while (counter1 < 5) {
+    result1 += counter1;
+    counter1++;
 }
 
 // console.log the result
@@ -23,8 +24,9 @@ let result2 = "";
 
 // Modify the code below
 do {
-    result2 = counter2;
-} while (counter2 < 5);
+    result2 += counter2;
+    counter2--;
+} while (counter2 > 0);
 
 // console.log the result
 console.log("Exercise 2:", result2);

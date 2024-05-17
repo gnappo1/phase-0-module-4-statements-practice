@@ -8,11 +8,11 @@ let result3;
 
 // Modify the code below
 if (num1 > num2) {
-    result3 += "num1 is greater than num2";
-} else if (num1 <= num2) {
-    result3 += "num2 is greater than num1";
+    result3 = "num1 is greater than num2";
+} else if (num1 < num2) {
+    result3 = "num2 is greater than num1";
 } else {
-    result3 += "num1 and num2 are equal";
+    result3 = "num1 and num2 are equal";
 }
 
 // console.log the result
@@ -26,7 +26,7 @@ const num3 = 5;
 const num4 = 7;
 
 // Modify the code below
-let result4 = num3 > num4 ? "num4 is greater than or equal to num3" : "num3 is greater than num4";
+let result4 = num3 < num4 ? "num4 is greater than or equal to num3" : "num3 is greater than num4";
 
 // console.log the result
 console.log("Problem 2:", result4);
@@ -45,9 +45,11 @@ switch (dayOfWeek) {
     case "Thursday":
     case "Friday":
         dayType = "weekday";
+        break;
     case "Saturday":
     case "Sunday":
         dayType = "weekend";
+        break;
     default:
         dayType = "invalid day";
 }
